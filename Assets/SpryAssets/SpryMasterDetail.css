@@ -1,0 +1,145 @@
+ @charset "UTF-8";
+
+/* SpryMasterDetail.css */
+
+/* Copyright (c) 2007. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main Master/Detail structure container. 
+ *
+ * If you want to constrain the width of the Master/Detail structure, set a width on
+ * the Master/Detail container. By default, our structure expands horizontally to fill
+ * up available space.
+ */
+.MasterDetail
+{
+	height: auto;
+	float: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 725px;
+	margin: 2px;
+	padding-left: 20px;
+}
+
+/* This is the selector for the Master Container element which houses all the MasterColumn
+ * classes. By default the Master column occupy about 35% from the width of the 
+ * entire structure. 
+*/
+.MasterDetail .MasterContainer
+{
+	background-color: #dddddd;
+	border: 1px solid gray;
+	width: 225px;
+	float: left;
+	overflow: auto;
+	font-size: 90%;
+	font-weight: bold;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 350px;
+}
+
+/* This is the selector for a Master Column element which holds the actual data for 
+ * a master column.
+*/
+.MasterDetail .MasterColumn
+{
+	font-size: 85%;
+	background-color: #eee;
+	padding:5px;
+	cursor:pointer;
+}
+
+/* This is the selector for a highlighted Master Column element.
+*/
+.MasterDetail .MasterColumnHover
+{
+	background-color: #F6921c;
+}
+
+/* This is the selector for a selected Master Column element.
+*/
+.MasterDetail .MasterColumnSelected
+{
+	background-color:#2d3092;
+	color: #FFF;
+}
+
+/* This is the selector for the Detail Container element which houses all the DetailColumn
+ * classes. By default the Detail column occupy about 60% from the width of the 
+ * entire structure. 
+*/
+.MasterDetail .DetailContainer
+{
+	border: 1px solid gray;
+	width: 445px;
+	overflow: auto;
+	height: 340px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 85%;
+	line-height: 20px;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+/* This is the selector for a Detail Column element which holds the actual data for 
+ * a detail column.
+*/
+.MasterDetail .DetailColumn
+{
+	margin-bottom: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	width: 425px;
+}
+#product {
+	color: #f6921c;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 125%;
+	line-height: 200%;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+#desc {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	font-weight: normal;
+	color: #333;
+}
+.key_ingred {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	color: #333;
+	font-weight: normal;
+}
+.usage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	color: #333;
+	font-weight: normal;
+}
+#comparison {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 100%;
+	font-weight: normal;
+	color: #333;
+}
+#size {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	color: #333;
+	font-weight: normal;
+}
+.MasterDetail .DetailColumn2 {
+	margin-bottom: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	width: 225px;
+}
