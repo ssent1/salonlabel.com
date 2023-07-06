@@ -1,2 +1,2 @@
 # salonlabel.com
-dev.salonlabel.com
+canonical archive: salonlabel.com
